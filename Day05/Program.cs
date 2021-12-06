@@ -53,11 +53,6 @@ namespace Day05
             }
 
             var result = dict.Where(x => x.Value > 1).Count();
-
-            //  var result = pointList.GroupBy(x => x).ToList();
-            //    .Where(g => g.Count() > 1)
-            //    .Count();
-
             Console.WriteLine($"Result is: {result}");
 
 
