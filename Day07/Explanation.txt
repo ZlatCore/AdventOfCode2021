@@ -53,3 +53,12 @@ As each crab moves, moving further becomes more expensive. This changes the best
 This costs a total of 168 fuel. This is the new cheapest possible outcome; the old alignment position (2) now costs 206 fuel instead.
 
 Determine the horizontal position that the crabs can align to using the least fuel possible so they can make you an escape route! How much fuel must they spend to align to that position?
+
+
+PART ONE SOLUTION:
+I didn't know of a good way to check which one should be best, so i have checked all number from smallest to largest in the set.
+I have calculated fuel consupmtion for each possibility and took the smallest one.
+
+PART TWO SOLUTION:
+Same as part one but i changed how i calculate fuel consumption:
+to cross distance of 4, it takes 1+2+3+4 fuel. Basically each distance takes same fuel to cross n as is sum of first n numbers. Luckily, u knew a formula for that so i used it.
